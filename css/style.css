@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+#interface, .main-menu {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #000;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: .5em;
+}
+
+#menu a {
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu a:hover {
+    color: #ccc;
+}
+
+#banner {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#banner a {
+    font-weight: bold;
+    color: #fff;
+}
+
+#banner a:hover {
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#presentation {
+    margin-top: 2em;
+    margin-left: 2em;
+    display: flex;
+    border: 0;
+}
+
+#presentation h2, #services h2 {
+    align-self: center;
+}
+
+#services {
+    margin-top: 2em;
+    margin-right: 2em;
+    border: 0;
+}
+
+#skirting-board {
+    display: flex;
+    justify-content: center;
+    background-color: #7a7974;
+}
+
+#information {
+    display: flex;
+    flex-direction: row;    
+}
+
+#information a {
+    margin-left: .2em;
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 2em;
+}
+
+#schedule-informations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#link-wpp {
+    position: absolute;
+    margin-top: 2em;
+    font-size: 24px;
+    margin-left: 1em;
+    background-color: green;
+    padding: .5em;
+    border-radius: 1em;
+}
+
+#link-wpp i {
+    color: #fff;
+    margin-right: .2em;
+    font-size: 30px;
+}
