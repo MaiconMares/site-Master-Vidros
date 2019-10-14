@@ -125,3 +125,10 @@ footer {
     margin-right: .2em;
     font-size: 30px;
 }
+
+#schedule, #phone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    align-items: center;
+}
