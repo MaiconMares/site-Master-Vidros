@@ -156,7 +156,17 @@ footer {
 
 @media (max-width: 500px){
     #link-wpp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 1em;
+        font-size: 16px;
+    }
+
+    #link-wpp a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #menu-container {
