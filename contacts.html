@@ -12,11 +12,13 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v4.0"></script>
     <div id="interface">
         <div class="container-fluid" id="menu-container">
             <div class="main-menu">
                 <div class="media">
-                    <img class="mr-3" src="assets/logo.png" alt="Ir à Página Inicial">
+                    <a href="index.html"><img class="mr-3" src="assets/logo.png" alt="Ir à Página Inicial"></a>
                 </div>
             </div>
             <div id="menu">
@@ -28,6 +30,23 @@
         <div id="banner">
             <img class="img-fluid" src="assets/cortina-de-vidro.png" alt="Banner">
             <div id="link-wpp"><a href="https://wa.me/5561993316566"><i class="fa">&#xf232;</i>Fazer orçamento</a></div>
+        </div>
+        <div class="container-fluid" id="midias-corpo">
+            <div id="midias-sociais">
+                <h2>Nossas redes-sociais</h2>
+                <div class="social-content-widgets">
+                    <a target="_blank" href="https://www.facebook.com/Master-Vidros-DF-179937872443768/" class="btn btn-social-icon btn-facebook" id="fb-icone">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a target="_blank" href="https://wa.me/5561993316566" class="btn btn-social-icon" id="wpp-icone">
+                        <span class="fa fa-whatsapp"></span>
+                    </a>
+                </div>
+                <div class="social-content-media">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMaster-Vidros-DF-179937872443768%2F&tabs=timeline&width=340&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+                <div class="social-content-description">Nos sigam nas redes sociais!</div>
+            </div>
         </div>
         <div id="skirting-board">
             <footer class="footer navbar-fixed-bottom">

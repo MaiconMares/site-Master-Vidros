@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
 body {
     margin: 0;
     border: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #interface, .main-menu {
@@ -135,4 +138,18 @@ footer {
 
 #formulario-servicos {
     background-color: #fff;
+}
+
+#midias-sociais, #midias-corpo {
+    background-color: #fff;
+}
+
+#wpp-icone, #fb-icone {
+    font-size: 2em;
+}
+
+#midias-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
